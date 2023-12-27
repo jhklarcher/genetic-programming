@@ -159,7 +159,7 @@ def fitness(tree, X, y, depth_coefficient):
     return res
 
 
-def gp_minimize(X, y, functions, terminals, max_depth=None, population_size=100, n_generations=100, crossover_probability=0.5, mutation_probability=0.1, depth_coefficient=0.1, tournament_size=5):
+def simbolic_regression(X, y, functions, terminals, max_depth=None, population_size=100, n_generations=100, crossover_probability=0.5, mutation_probability=0.1, depth_coefficient=0.1, tournament_size=5):
     # Generate the initial population
     population = [generate_tree(functions, terminals, max_depth)
                   for _ in range(population_size)]
