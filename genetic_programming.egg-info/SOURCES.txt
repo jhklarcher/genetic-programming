@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+genetic_programming/__init__.py
+genetic_programming/genetic_programming.py
+genetic_programming.egg-info/PKG-INFO
+genetic_programming.egg-info/SOURCES.txt
+genetic_programming.egg-info/dependency_links.txt
+genetic_programming.egg-info/requires.txt
+genetic_programming.egg-info/top_level.txt
